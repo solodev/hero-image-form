@@ -22,17 +22,20 @@
 .home-title {
     font-family: Arial, Helvetica, Sans-Serif;
     color: #fff;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
 }
 h2.home-title {
-  font-size: 34px;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 h3.home-title {
-  font-size: 24px;
+  font-size: 17px;
+  margin-top: 40px;
+  
 }
 .home-title a {
-  color: #fff;
+  color: #22adea;
   text-decoration: none;
   transition: all 0.25s ease-in-out;
 }
