@@ -1,0 +1,87 @@
+#search-form {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#search-form {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0;
+    background-color: #2e2e2e;
+    background-color: rgba(46,46,46,0.85);
+    max-width: 800px;
+    padding: 20px 20px 0;
+    text-align: center;
+    z-index: 1;
+}
+.home-image {
+    text-align: center;
+}
+.home-title {
+    font-family: Arial, Helvetica, Sans-Serif;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+h2.home-title {
+  font-size: 34px;
+}
+h3.home-title {
+  font-size: 24px;
+}
+.home-title a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.25s ease-in-out;
+}
+.home-title a:hover {
+  color: #F0AD4E;
+}
+h1.home-image img {
+    margin: 0 auto;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.mod-search {
+    padding-bottom: 30px;
+}
+.mod-search .block-content {
+    padding-top: 10px;
+}
+.block .block-content {
+    padding-top: 18px;
+    clear: both;
+}
+.hero-form select {
+    height: 38px;
+    margin: 0 10px 0 0;
+    border-radius: 0;
+}
+.hero-form input[type=text] {
+    height: 38px;
+    margin: 0 10px 0 0;
+    border-radius: 0;
+}
+.hero-form input[type=submit] {
+    font-size: 14px;
+    background-color: #F0AD4E;
+    height: 38px;
+    border-radius: 0;
+}
+.heroimage {
+    margin-bottom: 0px;
+	background-image: url(https://www.solodev.com/assets/hero-form/hero-image.jpg);
+	background-size: cover;
+	width: 100%;
+    min-height: 500px;
+}
+@media screen and (max-width: 768px) {
+    .hero-form select {
+	  width: 100%;
+	}
+}
